@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 2% 0 4% 2%;
+    background: #fff;
+}
+
+header > nav{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0 8px 0 0;
+}
+
+nav > a{
+    color: #000;
+    border: #fff 1px solid;
+    padding: 8px 16px;
+}
+
+nav > a:hover{
+    color: #fff;
+    border: #000 1px solid;
+    background: #000;
+    transition: all 0.3s ease-in-out;
+}

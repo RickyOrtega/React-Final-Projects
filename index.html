@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <link rel="stylesheet" href="./css/all.css">
+</head>
+<body>
+    <header>
+        <a href="./index.html"><h1>Platos típicos de la costa norte de Colombia</h1></a>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="mondongo.html">Mondongo</a>
+            <a href="salchipapa.html">Salchipapa</a>
+            <a href="mojarra_de_9_palos.html">Mojarra económica</a>
+        </nav>
+    </header>
+    <main class="container">
+        <section>
+            <h2>Platos típicos</h2>
+            <p>En este sitio web encontrarás los platos típicos de algunas de las ciudades de la costa norte de
+                Colombia.
+            </p>
+            <p>Los platos típicos son:</p>
+            <section>
+                <a href="mondongo.html" class="card">
+                    <picture>
+                        <img src="files/img/mondongo.jpg" alt="Mondongo">
+                    </picture>
+                    <p>Mondongo</p>
+                </a>
+            </section>
+            <section >
+                <a href="salchipapa.html" class="card">
+                    <picture>
+                        <img src="files/img/salchipapa.jpg" alt="Salchipapa">
+                    </picture>
+
+                    <p>Salchipapa</p>
+                </a>
+            </section>
+            <section >
+                <a href="mojarra_de_9_palos.html" class="card">
+                    <picture>
+                        <img src="files/img/mojarra_frita.jpg" alt="Mojarra económica">
+                    </picture>
+
+                    <p>Mojarra económica</p>
+                </a>
+            </section>
+        </section>
+        <section id="main_formulario">
+            <h2>Formulario de contacto</h2>
+            <form action="#" method="post">
+                <label for="input_nombres"> Nombres:
+                    <input type="text" class="input_formulario input_texto" id="input_nombre" placeholder="Tus nombres">
+                </label>
+                <label for="input_apellidos"> Apellidos:
+                    <input type="text" class="input_formulario input_texto" id="input_apellidos"
+                        placeholder="Tus apellidos">
+                </label>
+                <label for="input_telefono"> Teléfono:
+                    <input type="number" class="input_formulario input_numero" id="input_telefono"
+                        placeholder="Teléfono" min="0">
+                </label>
+                <label for="input_email"> Teléfono:
+                    <input type="email" class="input_formulario input_email" id="input_email"
+                        placeholder="Correo electrónico" required>
+                </label>
+                <input type="submit" value="Enviar" disabled>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Desarrollado por: <a href="https://github.com/RickyOrtega" target="_blank">Ricky Ortega</a></p>
+        <p> All rights reserved</p>
+        <p>2023</p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

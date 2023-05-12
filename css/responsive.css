@@ -1,0 +1,24 @@
+@media screen and (max-width: 991px) {
+    header{
+        margin-top: 6%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    header > nav{
+        margin-top: 3%;
+    }
+
+    main{
+        padding: 50px;
+        height: 100%;
+    }
+
+    footer{
+        padding: 50px;
+        height: 100%;
+    }
+}
