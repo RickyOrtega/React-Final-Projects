@@ -1,0 +1,37 @@
+body > header{
+    background-image: url("/img/cartagena_calle.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1{
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0,0,0,1);
+    background: rgba(0,0,0,0.5);
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 40vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(0,0,0,0.8);
+    padding: 1rem;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}

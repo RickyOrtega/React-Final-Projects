@@ -1,20 +1,27 @@
 @media screen and (max-width: 991px) {
-    header{
-        margin-top: 6%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
+    nav{
+        justify-content: space-between;
         flex-direction: column;
-        padding: 50px;
     }
 
-    header > nav{
-        margin-top: 3%;
+    header > h1 {
+        font-size: 2rem;
     }
 
     main{
-        padding: 50px;
         height: 100%;
+        padding: 0;
+        width: 100%;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    #formulario{
+        width: 80vw;
+        padding-bottom: 50px;
     }
 
     footer{
