@@ -22,10 +22,12 @@ main > section:first-child > p{
 }
 
 .galeria{
-    margin-bottom: 10vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 90vw;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
 .galeria h2{
@@ -35,14 +37,6 @@ main > section:first-child > p{
     display: block;
     width: 100%;
     height: 10vh;
-}
-
-.container{
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .card{
@@ -78,3 +72,26 @@ main > section:first-child > p{
     order: 2;
 }
 
+#boton_subida{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boton_subida:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+.fa-arrow-up{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
